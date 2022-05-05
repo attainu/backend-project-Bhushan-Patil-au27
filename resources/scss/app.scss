@@ -1,0 +1,57 @@
+@import './_variables';
+
+
+nav li:last-child a{
+    background-color: $primary;
+    border-radius: 50px;
+}
+
+nav li a{
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        color: $primary;
+    }
+}
+
+section.hero{
+    background: $secondary;
+}
+
+.size{
+    background-color: $secondary;
+}
+
+.add-to-cart{
+    border: 2px solid $primary;
+    color: $primary;
+    transition: all 0.3s ease-in-out;
+}
+.add-to-cart:hover{
+    background-color: $primary;
+    color: white;
+}
+.btn-primary{
+    background: $primary;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: $primary-hoverF;
+    }
+}
+
+
+section.cart{
+    background: $secondary;
+}
+
+.amount{
+    color: $primary;
+}
+
+section.login{
+    background: $secondary;
+    min-height: calc(100vh - 86px);
+}
+
+.error_msg{
+    color: $primary;
+}
