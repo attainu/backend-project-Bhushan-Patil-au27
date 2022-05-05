@@ -1,0 +1,55 @@
+nav li:last-child a {
+  background-color: #Fe5F1E;
+  border-radius: 50px;
+}
+
+nav li a {
+  transition: all 0.3s ease-in-out;
+}
+nav li a:hover {
+  color: #Fe5F1E;
+}
+
+section.hero {
+  background: #F8F8F8;
+}
+
+.size {
+  background-color: #F8F8F8;
+}
+
+.add-to-cart {
+  border: 2px solid #Fe5F1E;
+  color: #Fe5F1E;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-to-cart:hover {
+  background-color: #Fe5F1E;
+  color: white;
+}
+
+.btn-primary {
+  background: #Fe5F1E;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: #b23301;
+}
+
+section.cart {
+  background: #F8F8F8;
+}
+
+.amount {
+  color: #Fe5F1E;
+}
+
+section.login {
+  background: #F8F8F8;
+  min-height: calc(100vh - 86px);
+}
+
+.error_msg {
+  color: #Fe5F1E;
+}
